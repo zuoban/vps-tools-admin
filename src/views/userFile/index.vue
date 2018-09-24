@@ -39,7 +39,7 @@
           <el-button type="primary" size="mini" @click.native.prevent="downloadFile(scope.row.id)">download</el-button>
         </template>
       </el-table-column>
-    </el-table
+    </el-table>
 
     <el-pagination
       :total="listQuery.total"
